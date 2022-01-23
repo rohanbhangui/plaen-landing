@@ -4,11 +4,14 @@
   "description": "plaen.co landing page",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npx -p parcel parcel build src/index.html"
+    "build": "npx -p parcel parcel build src/index.html",
+    "start": "npx parcel src/index.html --https"
   },
   "author": "Rohan Bhangui",
   "license": "ISC",
   "devDependencies": {
+    "@parcel/packager-raw-url": "^2.2.1",
+    "@parcel/transformer-webmanifest": "^2.2.1",
     "parcel": "^2.2.1"
   },
   "dependencies": {

@@ -79,6 +79,14 @@ main {
       .subscribe-title {
         margin-bottom: 0.5rem;
       }
+
+      #mc-embedded-subscribe {
+        background: #000;
+
+        &:hover {
+          background: #333;
+        }
+      }
     }
   }
 }

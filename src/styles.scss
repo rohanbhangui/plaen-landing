@@ -6,6 +6,8 @@ html, body, #root {
 
 html {
   font-size: max(16px, calc(60% + 0.8vmin));
+  min-height: 100vh;
+  height: 100%;
 }
 
 * {
@@ -18,6 +20,7 @@ html {
 
 body {
   height: 100vh;
+  background: #fefefe;
 }
 
 main {
@@ -76,6 +79,8 @@ main {
     }
 
     .signup {
+      padding: 0 1rem;
+
       .subscribe-title {
         margin-bottom: 0.5rem;
       }
